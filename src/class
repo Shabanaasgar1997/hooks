@@ -314,6 +314,14 @@ functional components
 
 const[variablename,setVariablename]=useState(initialState)
 
+
+
+const[variable,dispatch]=useReducer(reducer,initialState);
+
+useRef
+=========
+To manipulate DOM Data
+
 Article on configuration of Git
 https://www.atlassian.com/git/tutorials/install-git#windows
 

@@ -4,12 +4,14 @@ import State from "./Component/State";
 import FormValidation from "./Component/FormValidation";
 import { Route, Routes } from "react-router-dom";
 import StateHook from "./hooks/useState/StateHook";
+import Red from "./hooks/useReducer/Red";
 
 function App() {
   return (
     <div className="App">
       <Routes>
         <Route path="/" element={<StateHook />} />
+        <Route path="/red" element={<Red />} />
       </Routes>
       {/* <State /> */}
       {/* <FormValidation /> */}
