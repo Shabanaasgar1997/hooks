@@ -1,0 +1,311 @@
+node_modules ================ all the library files will be located collection
+of the libraries component based library cli command line interfaces
+
+.html
+
+.js
+
+# html
+
+html
+
+# reactjs
+
+root file
+
+reactjs flows like water
+
+parent to the child
+
+one-way data binding
+
+jsx
+
+javascript structured extension
+
+combination of html and js
+
+babel
+
+# component
+
+external file
+
+.js
+
+filename === Uppercase
+
+navbar.js
+Navbar.js
+
+2.  types of components
+
+1.  class component
+1.  functional component
+
+hooks executed in the functional component
+
+state exectes in the class component
+
+step1: create the file
+step2: class/functional
+step3: export the component
+class compoenent is used for mostly state management
+
+complex
+
+import React from "react"
+
+class Compoenentname extends Component{
+render(){
+return(<>
+
+        html code
+
+        </>)
+    }
+
+}
+export default Componentname;
+
+# fragmentation
+
+function ComponentName(){
+return(<></>)
+}
+
+export default Componentname;
+
+ES7+ React/Redux/React-Native snippets
+
+ES7 React/Redux/GraphQL/React-Native snippets
+
+index.js
+
+# 5 types
+
+external
+inline
+js objects
+module.css
+sass
+
+externalfile
+
+filename.module.css
+
+var/let/const vriablename={}
+
+<tag style="propertynam:value;................."></tag>
+background-color:;
+backgroundColor:""
+
+bootstrap
+styled-components
+
+# cli commands
+
+npmjs.com
+
+command --force
+
+# syntax
+
+const ElementName=styled.htmltag`
+
+propertyname:value;
+propertyname:value;
+propertyname:value;
+propertyname:value;
+
+`
+getbootstrap.com
+
+reactjs
+
+only the libraries which react developers developed
+cdn
+====
+
+https://semantic-ui.com/
+https://chakra-ui.com/
+https://mui.com/
+https://ant.design/
+https://mdbootstrap.com/
+
+# React Router Dom
+
+pages
+
+Reactjs Library
+
+navigating
+
+with out refreshing the browser
+
+1. BrowserRouter : wrap the entire application
+2. Routes : Parent
+3. Route : path details
+4. Link : onclick
+5. NavLink: onclick
+
+2 attribbutes
+
+1. path
+2. element
+
+useParams();
+useNavigate();
+
+dynamic routing
+
+# Props & states
+
+short form properties
+
+props uses to pass the data from parent to the child
+
+redux --- state management
+
+attribute
+
+immutable
+
+declaration
+parent
+=====
+
+<Home name=""/>
+
+# calling
+
+# child
+
+function componentnname(props)
+{
+
+}
+
+# JSON INCLUDING
+
+# States & Hooks
+
+=======================
+
+state === ?
+
+data that changes over time inside the component
+
+Mutable
+
+class components
+functional ❌
+
+# hooks
+
+functional components
+
+# bank
+
+AXIS BANK
+
+0
+
+DEPOSIT : 15000
+WITHDRAW: 500
+
+అవస్థ
+
+npm install
+
+github repo
+
+node_modules
+
+step1: class component
+step2: state
+step3:
+step4: this.state.variablename;
+
+setState();
+
+# calculator task
+
+# Form-validation
+
+state
+
+# js
+
+input
+
+js ----->
+
+# Hooks
+
+7 types of hooks
+
+1. useState()
+2. useEffect()
+3. useReducer()
+4. useContext()
+5. useRef()
+6. useMemo()
+7. useCallBack()
+
+# State Management
+
+useState()
+useReducer()
+
+# API INTEGRATION
+
+useEffect()
+
+# Prop Drilling
+
+useContext()
+
+# DOM MANIPULATION
+
+useRef()
+
+# Performance
+
+useMemo()
+useCallBack()
+
+# Banking
+
+Input field
+
+withdraw
+deposit
+fd
+
+# hooks
+
+a simple functions
+
+camelUppercase
+
+managing the state/application
+functional components
+
+# rules
+
+1. hooks can not be used directly
+2. hooks need to be declared at the top of the function
+3. hooks need to be imported
+4. hooks can not be conditional
+5. hooks only executes in the functional component
+
+7 types
+
+1. useState()
+2. useEffect()
+3. useRef()
+4. useContext()
+5. useReducer()
+6. useMemo()
+7. useCallBack()
