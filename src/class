@@ -310,6 +310,13 @@ functional components
 6. useMemo()
 7. useCallBack()
 
+# useState & useReducer used for state management
+
+const[variablename,setVariablename]=useState(initialState)
+
+Article on configuration of Git
+https://www.atlassian.com/git/tutorials/install-git#windows
+
 Community
 
 # pre-requisities

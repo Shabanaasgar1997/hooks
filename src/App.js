@@ -2,12 +2,18 @@ import logo from "./logo.svg";
 // import "./App.css";
 import State from "./Component/State";
 import FormValidation from "./Component/FormValidation";
+import { Route, Routes } from "react-router-dom";
+import StateHook from "./hooks/useState/StateHook";
 
 function App() {
   return (
     <div className="App">
+      <Routes>
+        <Route path="/" element={<StateHook />} />
+      </Routes>
       {/* <State /> */}
-      <FormValidation />
+      {/* <FormValidation /> */}
+
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
