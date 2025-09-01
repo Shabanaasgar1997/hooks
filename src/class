@@ -322,6 +322,66 @@ useRef
 =========
 To manipulate DOM Data
 
+
+useEffect
+============
+
+
+side effect
+API INTEGRATION
+
+
+useEffect(function,dependency)
+
+async and await promises
+
+
+
+async function functionname(){
+    await;
+}
+
+
+useContext
+============
+
+Prop Drilling
+
+
+
+createContext
+Provide
+useCotext
+
+
+
+Performance
+useMemo & useCallBack
+=====================
+useMemo return the value
+useCallBack return the function
+
+
+
+
+    functions with parameters
+    ==========================
+
+    function functionname(pa)
+        {
+            a+b
+        }
+functionname(45,45)
+functionname(85,45)
+functionname(45,45)
+
+
+useMemo(function,dependency)
+
+
+useCallBack(function,dependency)
+
+
 Article on configuration of Git
 https://www.atlassian.com/git/tutorials/install-git#windows
 
@@ -343,3 +403,26 @@ optimized code
 git remote add origin https://github.com/Shabanaasgar1997/hooks.git
 git branch -M main
 git push -u origin main
+
+
+
+CRUD
+=====
+
+
+
+create - post()
+READ - get()
+UPDATE - put()
+DELETE -delete()
+
+
+axios :https://axios-http.com/docs/intro
+
+https: request
+
+
+
+
+
+promises : https://fkhadra.github.io/react-toastify/introduction/
