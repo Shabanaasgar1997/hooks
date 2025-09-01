@@ -24,6 +24,7 @@ export default class FormValidation extends Component {
     };
     return (
       <>
+        <h1>Welcome</h1>
         <div className="container">
           <form action="" className="w-50 mx-auto" onSubmit={Validate}>
             <label htmlFor="">Username</label>

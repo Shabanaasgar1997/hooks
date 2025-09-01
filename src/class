@@ -309,3 +309,22 @@ functional components
 5. useReducer()
 6. useMemo()
 7. useCallBack()
+
+Community
+
+# pre-requisities
+
+1. git bash(git)
+2. configuration
+
+github.com
+
+github.com/shabanaanjum
+
+npm run build
+
+optimized code
+
+git remote add origin https://github.com/Shabanaasgar1997/hooks.git
+git branch -M main
+git push -u origin main
